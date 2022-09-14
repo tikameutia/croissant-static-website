@@ -35,3 +35,8 @@ a:hover {
     color: #333333;
     text-decoration: none;
 }
+
+.email {
+    color: var(--accent-color);
+    font-size: 18px;
+}
