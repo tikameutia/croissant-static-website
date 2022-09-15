@@ -27,6 +27,15 @@ p {
     color: #333333;
 }
 
+img {
+    transition:transform 0.25s ease-in-out;
+}
+
+img:hover {
+    -webkit-transform:scale(1.4);
+    transform:scale(1.4);
+}
+
 a {
     color: var(--accent-color);
 }
